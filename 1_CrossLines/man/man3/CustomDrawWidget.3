@@ -1,0 +1,80 @@
+.TH "CustomDrawWidget" 3 "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CustomDrawWidget \- The \fBCustomDrawWidget\fP class Класс  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <customdrawwidget\&.h>\fP
+.PP
+Inherits QWidget\&.
+.SS "Signals"
+
+.in +1c
+.ti -1c
+.RI "void \fBdataChanged\fP (QPointF point)"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCustomDrawWidget\fP (QWidget *parent=nullptr)"
+.br
+.ti -1c
+.RI "virtual void \fBpaintEvent\fP (QPaintEvent *event)"
+.br
+.ti -1c
+.RI "void \fBchangedColor\fP (QColor color)"
+.br
+.ti -1c
+.RI "virtual void \fBmousePressEvent\fP (QMouseEvent *pe)"
+.br
+.ti -1c
+.RI "virtual void \fBmouseMoveEvent\fP (QMouseEvent *pe)"
+.br
+.ti -1c
+.RI "virtual void \fBmouseReleaseEvent\fP (QMouseEvent *pe)"
+.br
+.ti -1c
+.RI "virtual void \fBwheelEvent\fP (QMouseEvent *pe)"
+.br
+.ti -1c
+.RI "void \fBclearVector\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "QVector< QPointF > \fBvecPoint\fP"
+.br
+.ti -1c
+.RI "QColor \fBm_color\fP"
+.br
+.ti -1c
+.RI "bool \fBlayMove\fP = false"
+.br
+.ti -1c
+.RI "double \fBscale\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fBCustomDrawWidget\fP class Класс 
+
+
+.PP
+\fBNote\fP
+.RS 4
+Очень важное
+.RE
+.PP
+Не очень важное 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

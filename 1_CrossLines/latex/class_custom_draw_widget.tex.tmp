@@ -1,0 +1,81 @@
+\doxysection{Custom\+Draw\+Widget Class Reference}
+\label{class_custom_draw_widget}\index{CustomDrawWidget@{CustomDrawWidget}}
+
+
+The \doxyref{Custom\+Draw\+Widget}{p.}{class_custom_draw_widget} class Класс  
+
+
+
+
+{\ttfamily \#include $<$customdrawwidget.\+h$>$}
+
+
+
+Inheritance diagram for Custom\+Draw\+Widget\+:
+% FIG 0
+
+
+Collaboration diagram for Custom\+Draw\+Widget\+:
+% FIG 1
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_custom_draw_widget_a4293f61e9ca24e0eb09a282584adb95a} 
+void {\bfseries data\+Changed} (QPointF point)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_custom_draw_widget_a5bcd812a7d62b301c90025506cde4ded} 
+{\bfseries Custom\+Draw\+Widget} (QWidget $\ast$parent=nullptr)
+\item 
+\label{class_custom_draw_widget_a4bcd49afeab35607163b72b28ba4ec25} 
+virtual void {\bfseries paint\+Event} (QPaint\+Event $\ast$event)
+\item 
+\label{class_custom_draw_widget_aeafbf87eb211f5cfe60d1bf138427442} 
+void {\bfseries changed\+Color} (QColor color)
+\item 
+\label{class_custom_draw_widget_ad3758c9b3e73d6492191901ecaa415ff} 
+virtual void {\bfseries mouse\+Press\+Event} (QMouse\+Event $\ast$pe)
+\item 
+\label{class_custom_draw_widget_aa458d2c7ff7ad1bc161d962df2849e1e} 
+virtual void {\bfseries mouse\+Move\+Event} (QMouse\+Event $\ast$pe)
+\item 
+\label{class_custom_draw_widget_a1d5740f52e2a398b4d5b0188a557e27c} 
+virtual void {\bfseries mouse\+Release\+Event} (QMouse\+Event $\ast$pe)
+\item 
+\label{class_custom_draw_widget_a5613ced107cb8f86eee447642674ee07} 
+virtual void {\bfseries wheel\+Event} (QMouse\+Event $\ast$pe)
+\item 
+\label{class_custom_draw_widget_af7a43ac279273e863f92fd0d670db5cb} 
+void {\bfseries clear\+Vector} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_custom_draw_widget_ab316d499980fdd4415dfe2bf8ff264f5} 
+QVector$<$ QPointF $>$ {\bfseries vec\+Point}
+\item 
+\label{class_custom_draw_widget_ae99228d005153faa2109a626b1095374} 
+QColor {\bfseries m\+\_\+color}
+\item 
+\label{class_custom_draw_widget_a41dd7ebb73a22591cc2851188d12e7e7} 
+bool {\bfseries lay\+Move} = false
+\item 
+\label{class_custom_draw_widget_a4f39b262f733a2cc6754c61a01c20d5d} 
+double {\bfseries scale}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxyref{Custom\+Draw\+Widget}{p.}{class_custom_draw_widget} class Класс 
+
+\begin{DoxyNote}{Note}
+Очень важное
+\end{DoxyNote}
+Не очень важное 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+customdrawwidget.\+h\item 
+customdrawwidget.\+cpp\end{DoxyCompactItemize}
